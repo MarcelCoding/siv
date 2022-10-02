@@ -1,0 +1,15 @@
+[package]
+name = "siv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+##schemars = { version = "0.8", default-features = false }
+hyper = { version = "0.14", default-features = false }
+mime = "0.3"
+#matchit = "0.6"
+#paste = "1.0"
+
+siv_derive = { path = "../siv_derive" }
+serde_json = "1.0"
